@@ -10,12 +10,12 @@ While traditional Blackjack strategies are based on basic probability and simple
 
   **1. Machine Learning with Keras and TensorFlow**
   
-    - We will use Keras and TensorFlow for building and training machine learning models, particularly for implementing reinforcement learning techniques such as the Actor-Critic method to predict optimal Blackjack strategies.
+    -We will use Keras and TensorFlow for building and training machine learning models, particularly for implementing reinforcement learning techniques such as the Actor-Critic method to predict optimal Blackjack strategies.
 
   **2. Python Pandas**
   
-    - Pandas will be used for data manipulation and processing, helping us manage the dataset and convert it into a format suitable for machine learning algorithms.
+    -Pandas will be used for data manipulation and processing, helping us manage the dataset and convert it into a format suitable for machine learning algorithms.
 
   **3. Python Matplotlib**
   
-    - Matplotlib will be used for visualizing the data and the results of our machine learning models. We will create plots to show how the model’s predictions compare with optimal Blackjack strategies.
+    -Matplotlib will be used for visualizing the data and the results of our machine learning models. We will create plots to show how the model’s predictions compare with optimal Blackjack strategies.
