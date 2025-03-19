@@ -22,12 +22,3 @@ While traditional Blackjack strategies are based on basic probability and simple
 
  ## File Structure
 
- Project-4-AI-Blackjack
-├─Blackjack
-│    Actor_Critic_RL
-│    blackjack
-├─Proposal
-│    Project 4 Proposal
-│  .gitignore
-│  README.md
-
