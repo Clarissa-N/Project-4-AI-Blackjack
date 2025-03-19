@@ -19,3 +19,15 @@ While traditional Blackjack strategies are based on basic probability and simple
   **3. Python Matplotlib**
   
  Matplotlib will be used for visualizing the data and the results of our machine learning models. We will create plots to show how the model’s predictions compare with optimal Blackjack strategies.
+
+ ## File Structure
+
+ Project-4-AI-Blackjack
+├─Blackjack
+│    Actor_Critic_RL
+│    blackjack
+├─Proposal
+│    Project 4 Proposal
+│  .gitignore
+│  README.md
+
