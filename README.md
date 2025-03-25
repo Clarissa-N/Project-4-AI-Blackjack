@@ -22,3 +22,21 @@ While traditional Blackjack strategies are based on basic probability and simple
 
  ## File Structure
 
+```
+Project-4-AI-Blackjack
+│   README.md
+│   .gitignore    
+│
+└───Blackjack
+│   │   Actor_Critic_RL
+│   │   blackjack
+|   |   blackjack_sc_rl
+|   |   blackjack_env
+|   |   model_test
+│   │
+│   └───Output
+│       │   blackjack_model.h5
+│   
+└───Proposal
+    │   Project 4 Proposal
+```
