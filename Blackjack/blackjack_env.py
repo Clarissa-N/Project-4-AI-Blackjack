@@ -26,6 +26,7 @@ class BlackjackEnv:
         """Resets the environment and deals initial cards."""
         self.player_hand = [self.deal_card(), self.deal_card()]
         self.dealer_hand = [self.deal_card(), self.deal_card()]
+        self.hit_count = 0
         return self.get_state()
     
     def get_state(self):
@@ -44,8 +45,10 @@ class BlackjackEnv:
         """
         if action == 0:  # Hit
             self.player_hand.append(self.deal_card())
-            if self.calculate_hand_value(self.player_hand) > 21:
-                return self.get_state(), -1, True  # Player busts, negative reward
+            self.hit_count += 1
+            player_value = self.calculate_hand_value(self.player_hand)
+            if player_value > 21:
+                return self.get_state(), -1, True, player_value, self.calculate_hand_value(self.dealer_hand)  # Player busts, negative reward        
 
         elif action == 1:  # Stay
             # Dealer plays
@@ -63,6 +66,6 @@ class BlackjackEnv:
             else:
                 reward = 0  # Tie
 
-            return self.get_state(), reward, True  # Game over
+            return self.get_state(), reward, True, player_value, dealer_value  # Game over
         
-        return self.get_state(), 0, False  # Continue playing
+        return self.get_state(), 0, False, self.calculate_hand_value(self.player_hand), self.calculate_hand_value(self.dealer_hand)  # Continue playing
