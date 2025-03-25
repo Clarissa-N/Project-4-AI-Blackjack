@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the model
-model = tf.keras.models.load_model("blackjack_model.h5")
+model = tf.keras.models.load_model("Output/blackjack_model.h5")
 
 def get_action(player_value, dealer_value):
     # Convert player and dealer values into format the model expects
