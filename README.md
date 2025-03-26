@@ -47,6 +47,16 @@ Project-4-AI-Blackjack
 
 ## File Intructions ##
 
+## 1. Clone the repo ##
+ - Copy the Project-4-AI-Blackjack repository URL
+ - In a local file of your choice, open a git bash console and use the following command:
+   ``` git clone 
+
+## 1. Running Actor-Critic Model ##
+ - Open blackjack_sc_rl in Jupyter Notebook or VSC
+ - Run cells normally and view output to see the models' efficiency
+
+## 2. Run model_test
 
 
 ## References ##
