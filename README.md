@@ -35,7 +35,11 @@ Project-4-AI-Blackjack
 |   |   model_test
 │   │
 │   └───Output
-│       │   blackjack_model.h5
+│       │   actor_loss
+|       |   blackjack_model.h5
+|       |   critic_loss
+|       |   outcomes
+|       |   smoothed_losses
 │   
 └───Proposal
     │   Project 4 Proposal
