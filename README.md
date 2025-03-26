@@ -63,7 +63,7 @@ Project-4-AI-Blackjack
 - Run the command: ``` python model_test.py```
 - In the blackjack.py console, follow the first prompt. You will have an output of your hand value and the dealers' hand value.
 - Switching to the model_test.py console, follow the first prompt then input the hand value of yourself and the dealer given from blackjack.py. The model will advise you to hit (h) or stay (s) which you can then input into the blackjack.py console.
-- Continue switching between consoles to be advided on what action to take
+- Continue switching between consoles to be advised on what action to take
 
 
 ## References ##
