@@ -50,13 +50,20 @@ Project-4-AI-Blackjack
 ## 1. Clone the repo ##
  - Copy the Project-4-AI-Blackjack repository URL
  - In a local file of your choice, open a git bash console and use the following command:
-   ``` git clone 
+   ``` git clone https://github.com/Clarissa-N/Project-4-AI-Blackjack.git ```
 
-## 1. Running Actor-Critic Model ##
+## 2. Running Actor-Critic Model ##
  - Open blackjack_sc_rl in Jupyter Notebook or VSC
  - Run cells normally and view output to see the models' efficiency
 
-## 2. Run model_test
+## 3. Run model_test ##
+- In the local repository, open a git bash console in the 'Blackjack' folder
+- Run the command: ``` python blackjack.py```
+- Open a second git bash console in the local 'Blackjack' folder
+- Run the command: ``` python model_test.py```
+- In the blackjack.py console, follow the first prompt. You will have an output of your hand value and the dealers' hand value.
+- Switching to the model_test.py console, follow the first prompt then input the hand value of yourself and the dealer given from blackjack.py. The model will advise you to hit (h) or stay (s) which you can then input into the blackjack.py console.
+- Continue switching between consoles to be advided on what action to take
 
 
 ## References ##
