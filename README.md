@@ -22,3 +22,52 @@ While traditional Blackjack strategies are based on basic probability and simple
 
  ## File Structure
 
+```
+Project-4-AI-Blackjack
+│   README.md
+│   .gitignore
+|   Power Point.pdf    
+│
+└───Blackjack
+│   │   Actor_Critic_RL
+│   │   blackjack
+|   |   blackjack_sc_rl
+|   |   blackjack_env
+|   |   model_test
+│   │
+│   └───Output
+│       │   actor_loss
+|       |   blackjack_model.h5
+|       |   critic_loss
+|       |   outcomes
+|       |   smoothed_losses
+│   
+└───Proposal
+    │   Project 4 Proposal
+```
+
+## File Intructions ##
+
+## 1. Clone the repo ##
+ - Copy the Project-4-AI-Blackjack repository URL
+ - In a local file of your choice, open a git bash console and use the following command:
+   ``` git clone https://github.com/Clarissa-N/Project-4-AI-Blackjack.git ```
+
+## 2. Running Actor-Critic Model ##
+ - Open blackjack_sc_rl in Jupyter Notebook or VSC
+ - Run cells normally and view output to see the models' efficiency
+
+## 3. Run model_test ##
+- In the local repository, open a git bash console in the 'Blackjack' folder
+- Run the command: ``` python blackjack.py```
+- Open a second git bash console in the local 'Blackjack' folder
+- Run the command: ``` python model_test.py```
+- In the blackjack.py console, follow the first prompt. You will have an output of your hand value and the dealers' hand value.
+- Switching to the model_test.py console, follow the first prompt then input the hand value of yourself and the dealer given from blackjack.py. The model will advise you to hit (h) or stay (s) which you can then input into the blackjack.py console.
+- Continue switching between consoles to be advised on what action to take
+
+
+## References ##
+https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
+AI Learning assistant 
+Stack Exchange
