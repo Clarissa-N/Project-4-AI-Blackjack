@@ -12,9 +12,9 @@ While traditional Blackjack strategies are based on basic probability and simple
   
  We will use Keras and TensorFlow for building and training machine learning models, particularly for implementing reinforcement learning techniques such as the Actor-Critic method to predict optimal Blackjack strategies.
 
-  **2. Python Pandas**
+  **2. Python**
   
- Pandas will be used for data manipulation and processing, helping us manage the dataset and convert it into a format suitable for machine learning algorithms.
+ Python will be used for data manipulation and processing, helping us manage the dataset and convert it into a format suitable for machine learning algorithms.
 
   **3. Python Matplotlib**
   
@@ -80,3 +80,4 @@ Project-4-AI-Blackjack
 https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
 AI Learning assistant 
 Stack Exchange
+https://keras.io/examples/rl/actor_critic_cartpole/
