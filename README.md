@@ -29,18 +29,22 @@ Project-4-AI-Blackjack
 |   Power Point.pdf    
 │
 └───Blackjack
-│   │   Actor_Critic_RL
-│   │   blackjack
-|   |   blackjack_sc_rl
-|   |   blackjack_env
-|   |   model_test
+│   │   Actor_Critic_RL.ipynb
+│   │   blackjack.py
+|   |   blackjack_ac_rl.ipynb
+|   |   blackjack_env.py
+|   |   model_test.py
+|   |   model_test_auto.py
 │   │
 │   └───Output
-│       │   actor_loss
+│       │   actor_loss.png
 |       |   blackjack_model.h5
-|       |   critic_loss
-|       |   outcomes
-|       |   smoothed_losses
+|       |   critic_loss.png
+|       |   smoothed_losses_100k.png
+|       |   smoothed_losses_10k.png
+|       |   smoothed_losses_1k.png
+|       |   testing_outcomes.png
+|       |   training_outcomes.png
 │   
 └───Proposal
     │   Project 4 Proposal
@@ -65,6 +69,11 @@ Project-4-AI-Blackjack
 - In the blackjack.py console, follow the first prompt. You will have an output of your hand value and the dealers' hand value.
 - Switching to the model_test.py console, follow the first prompt then input the hand value of yourself and the dealer given from blackjack.py. The model will advise you to hit (h) or stay (s) which you can then input into the blackjack.py console.
 - Continue switching between consoles to be advised on what action to take
+
+## 4. Run model_test_auto ##
+- In the local repository, open a git bash console in the 'Blackjack' folder
+- Run the command: ```python model_test_auto.py```
+- View the results of the model test
 
 
 ## References ##
