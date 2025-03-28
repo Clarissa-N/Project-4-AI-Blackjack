@@ -77,7 +77,7 @@ Project-4-AI-Blackjack
 
 
 ## References ##
-https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
-AI Learning assistant 
-Stack Exchange
-https://keras.io/examples/rl/actor_critic_cartpole/
+- https://www.geeksforgeeks.org/actor-critic-algorithm-in-reinforcement-learning/
+- AI Learning assistant 
+- Stack Exchange
+- https://keras.io/examples/rl/actor_critic_cartpole/
